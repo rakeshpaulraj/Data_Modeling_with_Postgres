@@ -77,9 +77,9 @@ create table songplays(
     level varchar not null, 
     song_id varchar, 
     artist_id varchar, 
-    session_id integer not null, 
-    location varchar not null, 
-    user_agent varchar not null,
+    session_id integer, 
+    location varchar, 
+    user_agent varchar,
     primary key(songplay_id)
 )"""
 
